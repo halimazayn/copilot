@@ -37,7 +37,6 @@ To set up the project, follow these steps:
    ``` bash
         python3 -m venv venv
         source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
    ```
 5. **Install requirements**
    ``` pip install langchain chromadb pypdf fastembed
