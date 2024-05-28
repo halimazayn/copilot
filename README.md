@@ -31,6 +31,7 @@ To set up the project, follow these steps:
    ```bash
    git clone https://github.com/assafelovic/gpt-researcher.git
    cd Educopilot
+    ```
 
 
 
