@@ -28,7 +28,7 @@ See [this guide](https://realpython.com/installing-python/) for a step-by-step i
 #### Step 1 - Download the project and navigate to its directory
 ```bash
 git clone https://github.com/assafelovic/gpt-researcher.git
-cd Educopilot
+cd Educopilot ```
 #### ** Step 2 – Install Ollama locally and a model for it 'mistra'**
 #### ** Step 3 – Create a virtual environment and activate it**
 python3 -m venv venv
