@@ -25,25 +25,25 @@ The main idea behind this project is to provide responses in the form of definit
 To set up the project, follow these steps:
 
 ```bash
-# Step 0 - Install Python 3.11 or later
-# See here for a step-by-step guide: https://realpython.com/installing-python/
+#### Step 0 - Install Python 3.11 or later
+#### See here for a step-by-step guide: https://realpython.com/installing-python/
 
-# Step 1 - Download the project and navigate to its directory
+#### Step 1 - Download the project and navigate to its directory
 git clone https://github.com/assafelovic/gpt-researcher.git
 cd Educopilot
 
-# Step 2 - Install Ollama locally and a model for it 'mistra'
+#### Step 2 - Install Ollama locally and a model for it 'mistra'
 
-# Step 3 - Create a virtual environment and activate it
+#### Step 3 - Create a virtual environment and activate it
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-# Step 4 - Install requirements
+#### Step 4 - Install requirements
 pip install langchain chromadb pypdf fastembed
 
-# Step 5 - Launch Ollama server
+#### Step 5 - Launch Ollama server
 
-# Step 6 - Run server.py using this command
+#### Step 6 - Run server.py using this command
 streamlit run server.py
 
 
