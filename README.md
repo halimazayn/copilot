@@ -33,19 +33,19 @@ To set up the project, follow these steps:
    cd Educopilot
     ```
 3. **Install ollama loccaly and a model for it mistra**
-5. **Create virtual environnement and activate it**
+4. **Create virtual environnement and activate it**
    ``` bash
-        python3 -m venv venv
-        source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 5. **Install requirements**
    ``` bash
-        pip install langchain chromadb pypdf fastembed
+   pip install langchain chromadb pypdf fastembed
    ```
 6. **Lunch Ollama server**
 7. **Run server.py using this command**
    ``` bash
-        streamlit run server.py
+   streamlit run server.py
    ```
 
 
