@@ -21,15 +21,17 @@ Educopilot is an AI-powered educational tool that offers several features to hel
 The main idea behind this project is to provide responses in the form of definitions, storytelling, instructional scenarios, translation, or scenario rectification using AI models. The user supplies PDF files, and it is the user who selects the type of response they desire. The architecture of the project revolves around leveraging AI models to process the PDF files and generate appropriate responses based on the user's chosen response type. The AI models analyze the content of the PDF files, extract relevant information, and generate responses that align with the selected response type. This architecture ensures that users receive tailored and accurate answers based on their specific requirements.
 ##  Getting Started
 ### Installation
-       #### Step 0 - Install Python 3.11 or later. see here  for a step-by-step guide.
-       Step 1 - Download the project and navigate to its directory
-       ``` git clone https://github.com/assafelovic/gpt-researcher.git
-           cd Educopilot ```
-       Step 2 – Install ollama loccaly and a model for it 'mistra' 
-       Step 3 – Create virtual env and activate it 
-       Step 4 – Install requirements : pip3, langchain, chromadb, pypdf, fastembed 
-       Step 5 – lunch Ollama server 
-       Step 6 – Run server.py using this command : ``` streamlit run server.py ``` 
+
+To set up the project, follow these steps:
+
+1. **Install Python 3.11 or later**  
+   See [this guide](https://realpython.com/installing-python/) for a step-by-step installation guide.
+
+2. **Download the project and navigate to its directory**  
+   ```bash
+   git clone https://github.com/assafelovic/gpt-researcher.git
+   cd Educopilot
+
 
 
 
