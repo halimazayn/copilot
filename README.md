@@ -29,14 +29,14 @@ See [this guide](https://realpython.com/installing-python/) for a step-by-step i
 ```bash
 git clone https://github.com/assafelovic/gpt-researcher.git
 cd Educopilot
-####  Step 2 – Install Ollama locally and a model for it 'mistra'
-####  Step 3 – Create a virtual environment and activate it
+#### ** Step 2 – Install Ollama locally and a model for it 'mistra'**
+#### ** Step 3 – Create a virtual environment and activate it**
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-####   Step 4 – Install requirements
+#### **  Step 4 – Install requirements**
 pip install langchain chromadb pypdf fastembed
-####     Step 5 – Launch Ollama server
-####     Step 6 – Run server.py using this command
+#### **    Step 5 – Launch Ollama server**
+#### **    Step 6 – Run server.py using this command**
 streamlit run server.py
 
 
